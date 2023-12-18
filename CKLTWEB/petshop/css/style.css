@@ -51,8 +51,9 @@ ul.list_menu li{
     width: 20%;
     margin-top: 5px;
     margin-left: 0px;
+    margin-bottom: 5px;
     float: left;
-    background: #e9f4f1;
+    background: #FAE8E0;
 }
 ul.list_sidebar{
     padding: 0;
@@ -62,12 +63,12 @@ ul.list_sidebar{
     line-height: 27px;
 }
 ul.list_sidebar li:hover{
-    background: #ffe8cc;
+    background: #DBA175;
 }
 ul.list_sidebar li a{
     text-decoration: none;
     text-align: center;
-    color: #94c9bd;
+    color: #9A7151;
 }
 ul.list_sidebar li{
     margin: 7px;
@@ -88,16 +89,16 @@ ul.product_list{
     width: 100%;
 }
 ul.product_list li{
-    width: 23%;
+    width: 24%;
     border: 1px dashed #000;
     margin: 5px;
     float: left;
-    background: #ffe8cc;
+    background: #DBA175;
     overflow: hidden;
 }
 ul.product_list li img{
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
@@ -105,8 +106,40 @@ ul.product_list li img{
 
     height: 150px;
     width: 100%;
-    background: #e9f4f1;
+    background: #FAE8E0;
 }
 .clear{
     clear: both;
 }
+.navbar,
+.navbar a {
+  color: #9A7151;
+}
+
+.navbar input,
+.navbar button {
+  color: #9A7151;
+}
+.dropdown-menu .dropdown-item {
+    color: #FAE8E0;
+  }
+  .pet_name {
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Thiết kế phần Price: màu đỏ */
+  .price {
+    color: #FAE8E0;
+  }
+  .product_list li {
+    text-align: center;
+    list-style: none; /* Loại bỏ dấu đầu dòng */
+    margin-bottom: 20px; /* Khoảng cách giữa các sản phẩm */
+  } 
+  /* Loại bỏ trang trí của liên kết có class là 'no-default' */
+a.no-default {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Sử dụng màu sắc kế thừa */
+  }
+  

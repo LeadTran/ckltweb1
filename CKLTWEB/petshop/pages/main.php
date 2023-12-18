@@ -16,7 +16,13 @@
             include("main/cart.php");
           }elseif($tam=='contact'){
             include("main/contact.php");
-          }else{
+          }
+          elseif($tam=='new'){
+            include("main/new.php");
+          }elseif($tam=='pet'){
+            include("main/pet.php");
+          }
+          else{
             include("main/index.php");
           }
         ?>
